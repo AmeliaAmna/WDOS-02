@@ -1,0 +1,101 @@
+{
+    "sections": [
+      {
+        "section_type": "section",
+        "style": "height: 450px; overflow: hidden;",
+        "content": [
+          {
+            "tag": "img",
+            "src": "images/bg-leopard.jpeg",
+            "width": "100%",
+            "height": "auto"
+          }
+        ]
+      },
+      {
+        "section_type": "section",
+        "class": "leopard",
+        "content": [
+          { "tag": "h1", "text": "LEOPARDS IN SRILANKA" },
+          { "tag": "p", "text": "The Sri Lankan leopard, also known as 'Kotiya' in Sinhala, is a unique subspecies of leopard found in Sri Lanka. This large cat species, known for its unique appearance and elusiveness, contributes significantly to the island's rich biodiversity. Its golden-yellow coat, decorated with black rosettes, allows it to blend into various settings, including meadows and deep woods. As an endemic subspecies, it has adapted to the island's unique environmental conditions." }
+        ]
+      },
+      {
+        "section_type": "section",
+        "class": "leopard",
+        "content": [
+          { "tag": "h1", "text": "LOCATIONS IN SRI LANKA WHERE LEOPARD CAN BE FOUND" },
+          {
+            "tag": "div",
+            "class": "leopard-row",
+            "content": [
+              {
+                "tag": "div",
+                "class": "leopard-col",
+                "content": [
+                  { "tag": "h3", "text": "Udawalawe National Park" },
+                  { "tag": "p", "text": "Udawalawe National Park, known for its elephant population, is also home to leopards. The park's landscape, consisting of grasslands, scrublands, and marshes, offers a diverse range of wildlife, including the opportunity to spot leopards." }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "leopard-col",
+                "content": [
+                  { "tag": "h3", "text": "Horton Plains National Park" },
+                  { "tag": "p", "text": "Horton Plains is a unique national park known for its cloud forests and alpine grasslands, home to a secretive leopard population that finds a home in the deep woodlands and broad grasslands, although they are not as frequently seen as in other parks." }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "leopard-col",
+                "content": [
+                  { "tag": "h3", "text": "Sinharaja Forest Reserve" },
+                  { "tag": "p", "text": "Sinharaja, a UNESCO World Heritage Site in Sri Lanka, is the last remaining stretch of primary tropical rainforest and is home to a variety of animals, including leopards, making it an important conservation area for Sri Lanka's biodiversity due to its dense and pristine nature." }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_type": "section",
+        "class": "leopard",
+        "content": [
+          {
+            "tag": "div",
+            "class": "leopard-threat",
+            "content": [
+              { "tag": "h1", "text": "Explore Yala & Wilpatu national park" }
+            ]
+          },
+          {
+            "tag": "div",
+            "class": "leopard-row",
+            "content": [
+              {
+                "tag": "div",
+                "class": "leopard-threat-col",
+                "content": [
+                  { "tag": "img", "src": "images/leopard-skin.jpg", "width": "500", "height": "350" },
+                  { "tag": "h4", "text": "Poaching and Illegal Trade" },
+                  { "tag": "p", "text": "Poaching of leopards is a significant issue due to the illegal wildlife trade, driven by traditional beliefs, cultural practices, and the exotic pet market." },
+                  { "tag": "a", "href": "https://www.leopocon.org/", "class": "animal-link", "text": "Vist Conservation Institution" }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "leopard-threat-col",
+                "content": [
+                  { "tag": "img", "src": "images/leopard-threat.jpg", "width": "500", "height": "350" },
+                  { "tag": "h4", "text": "Road Accidents" },
+                  { "tag": "p", "text": "The expansion of road networks in leopard habitats may lead to collisions between leopards and vehicles, potentially causing injuries or fatalities for the big cats." },
+                  { "tag": "a", "href": "https://www.slwcs.org/", "class": "animal-link", "text": "Visit Conservation Institution" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

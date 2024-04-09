@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<head>
+    <title> ANIMALS </title>
+    <meta name="viewport" content="width=device-width, initial-Scale=1.0">
+    <link rel="normalize" href="normalize.css">
+    <link rel="Stylesheet" href="Styles/stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header >
+
+        <div class="header">
+
+            <img src="images/logo.png" class="logo">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="nav-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+
+            <nav class="navbar">
+                <a href="index2.html" style="--i:0;">HOME</a>
+                <a href="Introduction2.html" style="--i:1;">INTRODUCTION</a>
+                <a href="Department-of-WL2.html" style="--i:2;">DEPARTMENT OF WILDLIFE</a>
+                <a href="SL-Leopard2.html" style="--i:3;">SRI LANKAN LEOPARD</a>
+                <a href="Animals2.html" style="--i:4;">ANIMALS</a>
+                <a href="index.html" style="--i:5;">WILDLIFE WEBSITE</a>
+                <button id="saveButton">SAVE</button>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <div id="contenteditable" contenteditable="true"></div>
+
+    <!---Baground image -->
+    <section style="height: 450px; overflow: hidden;">
+        <img src="images/bg-leopard.jpeg" width="100%" height="auto">
+    </section><br>
+
+    <!--Section 1-->
+    <section class="leopard"> 
+        <h1>LEOPARDS IN SRILANKA</h1><br>
+        <p>The Sri Lankan leopard, also known as "Kotiya" in Sinhala, is a unique subspecies of leopard found in Sri Lanka. This large cat species, known 
+            for its unique appearance and elusiveness, contributes significantly to the island's rich biodiversity. Its golden-yellow coat, decorated 
+            with black rosettes, allows it to blend into various settings, including meadows and deep woods. As an endemic subspecies, it has adapted 
+            to the island's unique environmental conditions.<br><br>
+        </p>
+    </section><br><br>
+
+    <!--Section 2 where leopards can be found-->
+    
+    <section class="leopard">
+
+        <h1>LOCATIONS IN SRI LANKA WHERE LEOPARD CAN BE FOUND</h1>
+
+        <div class="leopard-row">
+            <div class="leopard-col">
+                <h3>Udawalawe National Park</h3><br>
+                <p>Udawalawe National Park, known for its elephant population, is also home to leopards. The park's landscape, consisting of 
+                   grasslands, scrublands, and marshes, offers a diverse range of wildlife, including the opportunity to spot leopards.</p>
+            </div>
+            <div class="leopard-col">
+                <h3>Horton Plains National Park</h3><br>
+                <p>Horton Plains is a unique national park known for its cloud forests and alpine grasslands, home to a secretive leopard 
+                   population that finds a home in the deep woodlands and broad grasslands, although they are not as frequently seen as in 
+                   other parks.</p>
+            </div>
+            <div class="leopard-col">
+                <h3>Sinharaja Forest Reserve</h3><br>
+                <p>Sinharaja, a UNESCO World Heritage Site in Sri Lanka, is the last remaining stretch of primary tropical rainforest and 
+                   is home to a variety of animals, including leopards, making it an important conservation area for Sri Lanka's 
+                   biodiversity due to its dense and pristine nature.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Section 3 threats for leopards-->
+
+    <section  class="leopard"><br><br>
+        <div class="leopard-threat">
+            <h1>Explore Yala & Wilpatu national park</h1>
+        </div>
+        <div class="leopard-row">
+            <div class="leopard-threat-col">
+                <img src="images/leopard-skin.jpg" alt="" width="500" height="350">
+                <h4>Poaching and Illegal Trade</h4>
+                <p>Poaching of leopards is a significant issue due to the illegal wildlife trade, driven by traditional beliefs, cultural practices, and the exotic pet market.</p><br><br>
+                <a href="https://www.leopocon.org/" class="animal-link">Vist Conservation Institution </a>
+            </div>
+            <div class="leopard-threat-col">
+                <img src="images/leopard-threat.jpg" alt="" width="500" height="350">
+                <h4>Road Accidents</h4>
+                <p>The expansion of road networks in leopard habitats may lead to collisions between leopards and vehicles, potentially causing injuries or fatalities for the big cats.</p><br><br>
+                <a href="https://www.slwcs.org/" class="animal-link">Visit Conservation Institution </a>
+            </div>
+        </div>
+    </section><br><br><br><br>
+
+</div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <section class="footer">
+
+            <div class="newsletter">
+                <h8 class="letter"></h8>
+                <form id="newsletterForm">
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe To Our Newsletter</button>
+                </form>
+            </div>
+            
+            <ul class="list">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Facebook</a>
+              </li>
+              <li>
+                <a href="">Location</a>
+              </li>
+              <li>
+                <a href="">Email</a>
+              </li>
+            </ul>
+            <p class="copyright">TheWildLife.SriLanka 2023</p>
+
+    </footer>
+
+    <script src="Scripts/SL-Leopard.js"></script>
+    <script src="Scripts/Newsletter.js"></script>
+    <script src="Scripts/Edit.js"></script>
+    
+
+</body>
+
+</html>

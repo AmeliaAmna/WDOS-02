@@ -1,0 +1,917 @@
+*{
+    margin: 0;
+   /* padding: 0;*/
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/*background image after navigation bar*/
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    padding: 1.3em 10%;
+    background:#2d4356;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-image:linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/elephant.jpg) ;
+
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2d4356;
+    z-index: -1;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, #2d4356);
+    transition: .5s;
+} 
+
+.header:hover:after {
+    left:100%;
+
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+
+.navbar a {
+    font-size: 13px;
+    color: #b07d7d;
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+#check {
+    display: none;
+}
+
+.icons {
+    position: absolute;
+    right: 5%;
+    font-size: 45 ;
+    color: #b07d7d;
+    cursor: pointer;
+    display: none;
+}
+
+/* Styling for navigation links */
+.navbar {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #b07d7d;
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+/* Styling for Save button in editing page*/
+#saveButton {
+    padding: 10px 20px; 
+    margin-left: 2px; 
+    max-height: 25px;
+    width: auto; 
+    background-color:#b07d7da6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: smaller; 
+}
+
+
+
+/*where the website content respond according to the device size only for the navigation */
+
+@media (max-width: 992px) {
+    .header {
+        padding: 20px 5%;
+    }
+}
+
+@media (max-width:768px) {
+    .icons {
+        display: inline-flex;
+    }
+
+    #check:checked~.icons #menu-icon {
+        display: none;
+    }
+
+    .icons #close-icon {
+        display: none;
+    }
+
+    #check:checked~.icons #close-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        height: 0;
+        width: 100%;
+        background: #2d4356;
+        box-shadow: 8px 16px #2d4356;
+        overflow: hidden;
+        transition: .3s ease;
+    }
+
+    #check:checked~.navbar {
+        height: 280px;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 18px;
+        margin: 24px 0;
+        text-align: center ;
+        transform: translateY(-50px);
+        opacity: 0;
+        transition: .3s ease;
+    }
+
+    #check:checked~.navbar a {
+        transform: translateY(0);
+        opacity: 1;
+        transition-delay: calc(.15s * var(--i));
+    }
+}
+
+
+
+
+                                                              /* Newsletter */
+
+
+
+.newsletter {
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 0px;
+}
+
+.newsletter .letter {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #a4a3a3;
+}
+
+.newsletter form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px;
+}
+
+.newsletter input[type="email"] {
+    padding: 8px 12px; 
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 150px);
+    max-width: 200px; 
+    max-height: 35px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #b07d7dd1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 0;
+}
+
+.newsletter button:hover {
+    background-color: #1a2b3c;
+}
+
+
+
+
+
+                                                                 /* Login page */
+
+
+
+
+.LG {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    padding: 0; 
+  }
+  .background-image {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  }
+  
+  .login-container {
+   
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #2d4356;
+    border-radius: 5px;
+    background-color:#cccccc80 ; 
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #2d4356;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  .welcome-message {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+
+
+
+
+                                                                   /* Admin Dashboard */
+
+
+
+
+
+.Adminbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.Admin-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    color: #2d4356;
+    padding: 20px;
+    background-color: #a76f6f8b;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.AdminHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.AdminHeader h1 {
+    margin: 0; 
+}
+
+.Admin-section {
+    margin-bottom: 30px;
+}
+
+.Asmin-section-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Admin-newsletter-subscriptions {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.subscriber {
+    margin-bottom: 5px;
+}
+
+.subscriber-email {
+    font-weight: bold;
+}
+
+.Adminfooter {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Admin-footer a {
+    display: inline-block; 
+    margin-left: 10px; 
+    text-decoration: none; 
+    color: #000; 
+}
+
+/* Style the link */
+.Admin-footer .hover-edit {
+    display: inline-block; 
+    margin-left: 10px; 
+    text-decoration: none; 
+    color: #000;
+}
+
+.Admin-footer .hover-edit:hover {
+    color: rgb(255, 3, 3); 
+}
+
+
+
+
+
+
+                                                                    /*Home page*/
+/*home page section 1*/
+
+.home h1 {
+    color: #a76f6f ;
+    padding-left: Auto;
+    padding-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.home p {
+    size: 5px;
+    color: black;
+    padding-left: 150px;
+    padding-right:150px;
+    padding: auto;
+    text-align: center;
+}
+
+/*home page section 2 adding 3 images*/
+
+.home-2{
+    max-width: 2000px;
+    margin: auto;
+}
+
+/*.home-location {
+    text-align: center;
+    color: #a76f6f;
+    text-transform: uppercase;
+}*/
+
+.home-row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;   
+}
+
+.home-col{
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /*flex-basis: 31%;
+    background: #a76f6f12;
+    color: #2d4356;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;*/
+}
+
+.home-col img {
+    width: 350px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.home-row .home-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.home-2 .home-row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: #2d4356;
+    margin: 20px auto;
+}
+
+.home-col p {
+    padding: 0px 40px;
+}
+
+.home-link {
+    padding: 8px;
+    background: #2d4356;
+    color: #a76f6f;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+                                                                  /*Animal page*/
+/*Animals page section 1*/
+
+.animals h1 {
+    color: #a76f6f ;
+    padding-left: Auto;
+    padding-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.animals p {
+    size: 5px;
+    color: black;
+    padding-left: 150px;
+    padding-right:150px;
+    padding: auto;
+    text-align: center;
+}
+
+/*Animals page section 2 adding 2 images*/
+
+.animals-2 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.animal-location {
+    text-align: center;
+    color: #a76f6f;
+    text-transform: uppercase;
+}
+
+.animal-row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;   
+}
+
+.animal-col {
+    text-align: center;
+}
+
+.animal-row .animal-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.animals-2 .animal-row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: #2d4356;
+    margin: 20px auto;
+}
+
+.animal-col p {
+    padding: 0px 40px;
+}
+
+.animal-link {
+    padding: 8px;
+    background: #2d4356;
+    color: #a76f6f;
+    border-radius: 30px;
+    text-decoration: none;
+}
+                                                                /*SL leopard page*/
+/*leopards in srilanka page*/
+
+.leopard {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 0;
+}
+
+.leopard h1 {
+    color: #a76f6f ;
+    padding-left: Auto;
+    padding-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*where leopard can be found in srilanka*/
+
+.leopard-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leopard-col {
+    flex-basis: 31%;
+    background: #a76f6f12;
+    color: #2d4356;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    
+}
+
+/*threats*/
+
+.leopard-threat {
+    text-align: center;
+    color: #a76f6f;
+    text-transform: uppercase;
+}
+
+.leopard-threat-row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;   
+}
+
+.leopard-threat-col {
+    text-align: center;
+}
+
+.leopard-threat-row .leopard-threat-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.leopard .leopard-threat-row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: #2d4356;
+    margin: 20px auto;
+}
+
+.leopard-threat p {
+    padding: 0px 40px;
+}
+
+.leopard-threat-link {
+    padding: 8px;
+    background: #2d4356;
+    color: #a76f6f;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+                                                                   /*Introduction page*/
+/*introduction section 01*/
+
+.introduction h2 {
+    color: #a76f6f ;
+    padding-left: Auto;
+    padding-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.introduction p {
+    size: 5px;
+    color: black;
+    padding-left: 150px;
+    padding-right:150px;
+    padding: auto;
+    text-align: center;
+}
+
+
+/*location*/
+
+.location {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.location-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;  
+    flex-basis: 31%;
+    background: #a76f6f55;
+    color: #2d4356;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.location-col {
+    padding-right: 30px;
+    flex: 1;
+    box-sizing: border-box;
+    
+}
+
+.location .location-row {
+    margin-top: 50px;
+}
+
+.location-row .location-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    max-height: 350px;
+}
+
+.location-col img {
+    width: 100%;
+    max-width: 450px;
+    height: 305px;
+}
+
+/*table part of introduction page*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: #2d4356;
+    padding: 15px;
+}
+
+th, td {
+    border: 1px solid  #a76f6f;
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: #b07d7d06;
+}
+ 
+.table-spacing {
+    padding: 140px;
+    padding-top: 50px;
+}
+
+.animal-row1 {
+    white-space: nowrap;
+    padding: 25px;
+    text-align: center;
+}
+                                                    /*Department of wild life srilanka page*/
+/*Department of wild life srilanka*/  
+
+.department h1 {
+    color: #a76f6f ;
+    padding-left: Auto;
+    padding-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.department p {
+    size: 5px;
+    color: black;
+    padding-left: 150px;
+    padding-right:150px;
+    padding: auto;
+    text-align: center;
+}
+
+/*flexbox gallery in department page*/
+
+.dep{
+    margin: 0;
+    padding: 0;
+}
+
+.dep-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.dep-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    /*gap: 10px 0; */
+}
+
+.dep-gallery img {
+    flex-wrap: wrap; 
+    width: 400px;
+    height: 400px;
+    border: 5px solid #ffffff; 
+    /*margin: 10px 0;*/
+}
+
+.map-department {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#map-container {
+    width: 80%;
+    max-width: 800px;
+}
+
+#map-dep {
+    width: 80%;
+    height: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /*home page*/
+
+    .bg {
+        height: auto; 
+    }
+
+    .home-col {
+        flex-basis: 100%; /* Make each column take up 100% width on smaller screens */
+    }
+
+    .home p {
+        padding: 0 15px;
+        text-align: justify;
+    }
+
+    .home-row {
+        flex-direction: column;
+    }
+
+    .home-col {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .home-col h1 {
+        text-align: center;
+    }
+
+    /*introduction*/
+
+    .bg {
+        height: auto; 
+    }
+    .introduction {
+        flex-basis: 100%; /
+    }
+
+    .introduction-col {
+        flex-basis: 100%; /* Make each column take up 100% width on smaller screens */
+    }
+
+    .introduction p {
+        padding: 0 15px;
+        text-align: justify;
+    }
+
+    .introduction-2 p {
+        padding: 0 15px;
+        text-align: justify;
+    }
+
+    .introduction-row {
+        flex-direction: column;
+    }
+
+    .introduction-col {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .introduction-col h1 {
+        text-align: center;
+    }
+
+}
+
+
+/*Footer*/
+
+.footer {
+    padding: 40px 0;
+    background-color:#2d4356 ;
+}
+.icon{
+    width: -300px;
+    height: -300px;
+}
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  padding-top: 10px;
+  color: #a76f6f;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.footer ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.footer ul a:hover {
+  opacity: 1;
+}
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+
+

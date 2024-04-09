@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/stylesheet.css">
+    <title>Admin Dashboard</title>
+</head>
+
+<body class="Admin-body">
+
+    <header>
+        <div class="header">
+            <img src="images/logo.png" class="logo">
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="nav-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+            <nav class="navbar">
+                <a href="index.html" style="--i:0;">HOME</a>
+                <a href="Introduction.html" style="--i:1;">INTRODUCTION</a>
+                <a href="Department-of-WL.html" style="--i:2;">DEPARTMENT OF WILDLIFE</a>
+                <a href="SL-Leopard.html" style="--i:3;">SRI LANKAN LEOPARD</a>
+                <a href="Animals.html" style="--i:4;">ANIMALS</a>
+            </nav>
+        </div>
+    </header>
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <div class="Admin-container">
+        <div class="Admin-header">
+            <h1>Admin Dashboard</h1>
+        </div>
+
+        <br>
+
+        <div class="Admin-section">
+            <div class="Admin-section-header">Newsletter Subscriptions</div><br>
+            <div class="Admin-newsletter-subscriptions" id="newsletterSubscriptions">
+                <!-- Subscription list will be displayed here -->
+            </div>
+        </div>
+
+
+        <div class="Admin-footer">
+            &copy; 2022 Admin Dashboard 
+            <a href="index2.html" class="hover-edit">"Click here to edit Content"</a>
+        </div>
+        
+
+    <script src="Scripts/AdminDashboard.js"></script>
+
+</body>
+
+</html>

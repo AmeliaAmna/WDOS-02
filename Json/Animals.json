@@ -1,0 +1,54 @@
+{
+  "sections": [
+    {
+      "style": "height: 450px; overflow: hidden;",
+      "img": {
+        "src": "images/bg-animal.jpeg",
+        "width": "100%",
+        "height": "auto"
+      }
+    },
+    {
+      "class": "animals",
+      "content": [
+        { "tag": "h1", "text": "ANIMALS IN SRILANKA" },
+        {
+          "tag": "p",
+          "text": "Sri Lanka is the Best for Big Game Safaris outside Africa. Elephant, Leopard, Sloth Bear, Blue Whale, and Sperm Whale are its Big Five. Few nations can match its array of Big Game safari animals, species densities, and infrastructure for tourists. No question about it—it's the Ultimate Island Safari. The largest mammal to have ever lived on Earth, the blue whale, is best found in Sri Lanka. The world's best places to see blue whales are Trincomalee and Mirissa. The largest toothed whale in the world, the sperm whale, may be found in Kalpitiya, one of the top 10 sites worldwide. The world's greatest opportunity to witness both blue and sperm whales during whale watching is near Mirissa. Minneriya National Park hosts the largest seasonal recurrent concentration of wild elephants, with up to 300 congregating annually on the lakebed, making it one of the top wildlife spectacles globally. Yala National Park is the world's top spot for observing and photographing leopards, with an average of one leopard per square kilometer in certain parts of Block 1. The largest, most well researched, and longest-viewing bird wave is the Sinharaja Bird Wave.(wildlifetourssrilanka, 2022)"
+        }
+      ]
+    },
+    {
+      "class": "animals-2 animals",
+      "content": [
+        {
+          "class": "animal-location",
+          "content": { "tag": "h1", "text": "Explore Yala & Wilpatu national park" }
+        },
+        {
+          "class": "animal-row",
+          "content": [
+            {
+              "class": "animal-col",
+              "content": [
+                { "tag": "img", "src": "images/yala.jpeg", "alt": "", "width": "500", "height": "350" },
+                { "tag": "h4", "text": "Yala national park" },
+                { "tag": "p", "text": "Yala, located in Sri Lanka's southeast, was designated a wildlife sanctuary in 1900 and a national park in 1938." },
+                { "tag": "a", "href": "Yala.html", "class": "animal-link", "text": "Explore more" }
+              ]
+            },
+            {
+              "class": "animal-col",
+              "content": [
+                { "tag": "img", "src": "images/wilpatu (1).jpeg", "alt": "", "width": "500", "height": "350" },
+                { "tag": "h4", "text": "Wilpatu national park" },
+                { "tag": "p", "text": "The largest and oldest protected area in Sri Lanka, covering over 130,000 hectares, is located in the country." },
+                { "tag": "a", "href": "Wilpattu.html", "class": "animal-link", "text": "Explore more" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

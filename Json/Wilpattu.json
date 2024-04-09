@@ -1,0 +1,106 @@
+{
+    "sections": [
+      {
+        "section_type": "section",
+        "class": "bg",
+        "content": [
+          {
+            "tag": "img",
+            "src": "images/bg-wilpattu.jpg",
+            "width": "100%",
+            "height": "auto"
+          }
+        ]
+      },
+      {
+        "section_type": "section",
+        "class": "Wilpattu",
+        "content": [
+          { "tag": "h1", "text": "WILPATTU NATIONAL PARK" },
+          { "tag": "p", "text": "The oldest and largest protected area in Sri Lanka, Wilpattu National Park (WNP), stretches over 11,000 hectares spanning the districts of Puttalam and Anuradhapura, bordering the districts of Mannar and Vavuniya. The park is home to sloth bears, elephant habitats, and the elusive Sri Lankan leopard. The extensive forest cover of WNP includes sand dunes, open grasslands, thorny scrub, dry zone woods, and the distinctive Villu wetlands. The tiny beaches of Portugal Bay and Dutch Bay are separated by barren reddish rocks that make up the park's scenery. WNP is close to Anuradhapura, an old city that has been there for a very long time and is home to many ruins and relics from many eras (Department of willife conservation, 2023)" }
+        ]
+      },
+      {
+        "section_type": "section",
+        "class": "wilpattu-section",
+        "content": [
+          {
+            "tag": "div",
+            "class": "wilpattu-row",
+            "content": [
+              {
+                "tag": "div",
+                "class": "wilpattu-col",
+                "content": [
+                  { "tag": "img", "src": "images/wilpatu (1).jpeg", "width": "500", "height": "350" }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "wilpattu-col",
+                "content": [
+                  { "tag": "h1", "style": "color:#a76f6f;", "text": "A QUICK GUIDE TO WILPATTU" },
+                  { "tag": "p", "text": "With an area eight times greater than Block I of Yala National Park, Wilpattu National Park provides a more comprehensive safari experience. It takes 45 minutes to get to the main locations, so visitors should allow extra time to explore. Wilpattu receives less tourists than Yala because of its isolated north-west position, which makes it possible for travelers to witness animals from their jeeps, such as elephants, sloth bears, and leopards. This makes for a more engaging safari experience that lets guests enjoy themselves to the fullest. It is thus advised to take your time and savor every moment of the Wilpattu safari (ugaescape, 2023)" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_type": "section",
+        "class": "wilpattu-section",
+        "content": [
+          {
+            "tag": "div",
+            "class": "wilpattu-row",
+            "content": [
+              {
+                "tag": "div",
+                "class": "wilpattu-col",
+                "content": [
+                  { "tag": "img", "src": "images/Wilpattu-3.jpg", "width": "500", "height": "350" }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "wilpattu-col introduction",
+                "content": [
+                  { "tag": "h1", "style": "color:#a76f6f;", "text": "WHEN TO VISIT?" },
+                  { "tag": "p", "text": "animals safaris are available all year round at Wilpattu National Park, although the busiest periods to visit are in early October and May through September, when drought and plant die-back enhance the chance to see animals. From October through December, the northeast monsoon pours rain, creating a verdant and stunning landscape. Early in the morning and late at night are the best times to see sloth bears since they are especially drawn to the fruits of the palu tree between May and July. To have the best chance of seeing animals, get ready to rise early.(ugaescape, 2023)" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_type": "section",
+        "class": "wilpattu-section",
+        "content": [
+          {
+            "tag": "div",
+            "class": "wilpattu-row",
+            "content": [
+              {
+                "tag": "div",
+                "class": "wilpattu-col",
+                "content": [
+                  { "tag": "img", "src": "images/wilpattu-2.webp", "style": "align-items: center;", "width": "500", "height": "350" }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "wilpattu-col",
+                "content": [
+                  { "tag": "h1", "style": "color: #a76f6f;", "text": "HISTORY & PLACES OF INTEREST" },
+                  { "tag": "p", "text": "Archaeological remains found in the WNP, including as stupas, tanks, Buddhist temples, and rock inscriptions, point to the existence of an irrigated agricultural civilization. Thambapanni is situated between Kudiramale point and the mouth of the Moderagam Aru river. It is here that King Vijaya arrived in 500 BC and created the Sinhalese people. It is thought that Prince Saliya and his wife Asokamaala resided in Galbendi Neeravia, which is northeast of Maradanmaduwa tank, 2,000 years ago. There are additional documented prehistoric sites from the Paleolithic and Mesolithic eras. The park reopened in February 2010 after being shuttered for more than 20 years due to Sri Lanka's civil war. The fauna is regaining its health, and the park's administration and infrastructure are being restored. The surrounding villages' socioeconomic values exhibit more variance, with towns in the western boarder relying on estuarine and sea fishing, while others mainly depend on subsistence agriculture.(Department of willife conservation, 2023)" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

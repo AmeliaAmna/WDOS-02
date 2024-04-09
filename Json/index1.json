@@ -1,0 +1,123 @@
+{
+  "doctype": "<!DOCTYPE html>",
+  "head": {
+    "title": "ANIMALS",
+    "meta": {
+      "name": "viewport",
+      "content": "width=device-width, initial-Scale=1.0"
+    },
+    "links": [
+      { "rel": "normalize", "href": "normalize.css" },
+      { "rel": "Stylesheet", "href": "Styles/stylesheet.css" },
+      { "href": "https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css", "rel": "stylesheet" }
+    ]
+  },
+  "body": {
+    "header": {
+      "class": "header",
+      "elements": [
+        { "tag": "img", "src": "images/logo.png", "class": "logo" },
+        { "tag": "input", "type": "checkbox", "id": "check" },
+        {
+          "tag": "label",
+          "for": "check",
+          "class": "icons",
+          "content": [
+            { "tag": "i", "class": "bx bx-menu", "id": "nav-icon" },
+            { "tag": "i", "class": "bx bx-x", "id": "close-icon" }
+          ]
+        },
+        {
+          "tag": "nav",
+          "class": "navbar",
+          "links": [
+            { "href": "index.html", "text": "HOME", "style": "--i:0;" },
+            { "href": "Introduction.html", "text": "INTRODUCTION", "style": "--i:1;" },
+            { "href": "Department-of-WL.html", "text": "DEPARTMENT OF WILDLIFE", "style": "--i:2;" },
+            { "href": "SL-Leopard.html", "text": "SRI LANKAN LEOPARD", "style": "--i:3;" },
+            { "href": "Animals.html", "text": "ANIMALS", "style": "--i:4;" }
+          ]
+        }
+      ]
+    },
+    "sections": [
+      {
+        "style": "height:450px; overflow: hidden;",
+        "img": { "src": "images/BG.jpg", "width": "100%", "height": "auto" }
+      },
+      {
+        "class": "home",
+        "content": [
+          { "tag": "h1", "text": "WILDLIFE OF SRI LANKA" },
+          {
+            "tag": "p",
+            "text": "Sri Lanka's wildlife is as varied as the island itself, ranging from elephants and leopards to marine life and a vast number of different birds, and Sri Lanka is now one of the best places in the world to see whales, including the mighty blue whale. With 12% of the country designated for wildlife protection, it is easy to get a taste of Sri Lankan wildlife: safari parks and sanctuaries, particularly in the southern and central zones, offer the easiest way to see animals in their natural habitat. Stay alert for a sighting of the endangered leopard; take your time as you watch the elephants feeding and washing in a tank or lagoon, or walk quietly along the beaches of the west and south coast near to marine turtles as they lay their eggs(Reddot, 2023)."
+          }
+        ]
+      },
+      {
+        "class": "home",
+        "content": [
+          { "tag": "h1", "text": "BIRDS AND MAMMALS IN SRI LANKA" },
+          {
+            "tag": "p",
+            "text": "Birdwatching in Sri Lanka is a delight for birders. The island's isolation and tropical climate are responsible for attracting an incredibly diverse range of birds of more than 400 species. Almost 200 migrant species descend on the country each year having flown south for the winter, and there are 33 endemic birds in Sri Lanka. For more information, see our page on birdwatching in Sri Lanka.102 terrestrial mammals have so far been discovered on the island. 90 of them are indigenous species, of which 14 are endemic to Sri Lanka. Mammals are extensively distributed in the country due to the diverse climate, vegetation, altitude and geographic history of the island. Many travelers come to Sri Lanka hoping to see elephants, the island's most iconic animal - visit one of the national parks and see them moving in herds in the wild, or visit the Millennium Elephant Foundation to learn more about the role elephants play in Sri Lankan culture. Sri Lanka's elusive leopard can be seen at many national parks, most notably Yala National Park, which has the highest population density of leopards in the world."
+          }
+        ]
+      },
+      {
+        "class": "home-2 home",
+        "content": {
+          "class": "home-row",
+          "content": [
+            {
+              "class": "home-col",
+              "content": [
+                { "tag": "img", "src": "images/home-sec-1.jpg", "alt": "", "width": "500", "height": "350" },
+                { "tag": "h4", "text": "Experience" },
+                { "tag": "p", "text": "Set off on a riveting wildlife expedition in Sri Lanka, where the varied topography of the country creates a tapestry of unforgettable experiences:" },
+                { "tag": "a", "href": "", "class": "home-link", "text": "Explore more" }
+              ]
+            },
+            {
+              "class": "home-col",
+              "content": [
+                { "tag": "img", "src": "images/home-sec-2.jpg", "alt": "", "width": "500", "height": "350" },
+                { "tag": "h4", "text": "Camps" },
+                { "tag": "p", "text": "With wildlife camps in Sri Lanka, you can get up close and personal with nature while experiencing an unmatched combination of adventure and conservation among the island's many ecosystems:" },
+                { "tag": "a", "href": "", "class": "home-link", "text": "Explore more" }
+              ]
+            },
+            {
+              "class": "home-col",
+              "content": [
+                { "tag": "img", "src": "images/home-sec-3.jpg", "alt": "", "width": "500", "height": "350" },
+                { "tag": "h4", "text": "Locations" },
+                { "tag": "p", "text": "Wilpattu National Park, Sri Lanka's largest and oldest, spans over 130,000 hectares and is known for its natural beauty and diverse wildlife habitats." },
+                { "tag": "a", "href": "", "class": "home-link", "text": "Explore more" }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "footer": {
+      "class": "footer",
+      "content": [
+        {
+          "tag": "ul",
+          "class": "list",
+          "items": [
+            { "tag": "li", "content": { "tag": "a", "href": "", "text": "Home" } },
+            { "tag": "li", "content": { "tag": "a", "href": "", "text": "About" } },
+            { "tag": "li", "content": { "tag": "a", "href": "", "text": "Facebook" } },
+            { "tag": "li", "content": { "tag": "a", "href": "", "text": "Location" } },
+            { "tag": "li", "content": { "tag": "a", "href": "", "text": "Email" } }
+          ]
+        },
+        { "tag": "p", "class": "copyright", "text": "TheWildLife.SriLanka 2023" }
+      ]
+    }
+  },
+  "script": { "src": "Scripts/Login-script.js" }
+}

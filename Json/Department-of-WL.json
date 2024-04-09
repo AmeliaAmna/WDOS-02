@@ -1,0 +1,82 @@
+{
+    "body": {
+      "class": "dep",
+      "header": {
+        "class": "header",
+        "logo": "images/logo.png",
+        "checkbox": {
+          "type": "checkbox",
+          "id": "check"
+        },
+        "icons": {
+          "menu": "bx bx-menu",
+          "close": "bx bx-x",
+          "for": "check"
+        },
+        "navbar": {
+          "links": [
+            {"href": "index.html", "text": "HOME", "style": "--i:0;"},
+            {"href": "Introduction.html", "text": "INTRODUCTION", "style": "--i:1;"},
+            {"href": "Department-of-WL.html", "text": "DEPARTMENT OF WILDLIFE", "style": "--i:2;"},
+            {"href": "SL-Leopard.html", "text": "SRI LANKAN LEOPARD", "style": "--i:3;"},
+            {"href": "Animals.html", "text": "ANIMALS", "style": "--i:4;"}
+          ]
+        }
+      },
+      "sections": [
+        {
+          "style": "height: 450px; overflow: hidden;",
+          "img": "images/bg-dep.jpeg"
+        },
+        {
+          "class": "department",
+          "content": [
+            {"tag": "h1", "text": "DEPARTMENT OF WILDLIFE CONSERVATION SRI LANKA"},
+            {"tag": "p", "text": "Sri Lanka's Department of Wildlife Conservation is in charge of protecting the island's wide variety of plants and animals..."}
+          ]
+        },
+        {
+          "class": "dep-container",
+          "content": [
+            {"tag": "div", "class": "animal-location", "content": {"tag": "h1", "text": "IMAGES OF PROTECTED AREAS"}},
+            {"tag": "div", "class": "dep-gallery", "content": {"tag": "img", "src": "images/protected area-1.jpg"}},
+            {"tag": "div", "class": "dep-gallery", "content": {"tag": "img", "src": "images/protected-area-2.jpg"}},
+            {"tag": "div", "class": "dep-gallery", "content": {"tag": "img", "src": "images/protected-area-3.jpg"}},
+            {"tag": "div", "class": "dep-gallery", "content": {"tag": "img", "src": "images/dep-gallery-4.jpeg"}},
+            {"tag": "div", "class": "dep-gallery", "content": {"tag": "img", "src": "images/protected-area-4.jpg"}},
+            {"tag": "div", "class": "dep-gallery", "content": {"tag": "img", "src": "images/dep-gallery-6.jpeg"}}
+          ]
+        },
+        {
+          "class": "department",
+          "content": [
+            {"tag": "p", "text": "Sri Lanka is home to a diverse array of ecosystems and wildlife..."}
+          ]
+        },
+        {
+          "class": "map-department",
+          "content": [
+            {
+              "tag": "div",
+              "id": "map-container",
+              "content": {
+                "tag": "div",
+                "id": "map-dep",
+                "content": {
+                  "tag": "iframe",
+                  "src": "https://www.google.com/maps/embed?...",
+                  "width": "800",
+                  "height": "600",
+                  "style": "border:0;",
+                  "allowfullscreen": "",
+                  "loading": "lazy",
+                  "referrerpolicy": "no-referrer-when-downgrade"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<head>
+    <title> ANIMALS </title>
+    <meta name="viewport" content="width=device-width, initial-Scale=1.0">
+    <link rel="normalize" href="normalize.css">
+    <link rel="Stylesheet" href="Styles/stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="dep">
+
+    <header>
+
+        <div class="header">
+
+            <img src="images/logo.png" class="logo">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="nav-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+
+            <nav class="navbar">
+              <a href="index2.html" style="--i:0;">HOME</a>
+              <a href="Introduction2.html" style="--i:1;">INTRODUCTION</a>
+              <a href="Department-of-WL2.html" style="--i:2;">DEPARTMENT OF WILDLIFE</a>
+              <a href="SL-Leopard2.html" style="--i:3;">SRI LANKAN LEOPARD</a>
+              <a href="Animals2.html" style="--i:4;">ANIMALS</a>
+              <a href="index.html"  style="--i:5;">WILDLIFE WEBSITE</a>
+              <button id="saveButton">SAVE</button>
+
+          </nav>
+
+        </div>
+
+    </header>
+
+    <div id="contenteditable" contenteditable="true">
+
+    <!---Baground image -->
+    <section style="height: 450px; overflow: hidden;">
+        <img src="images/bg-dep.jpeg" width="100%" height="auto">
+    </section>
+
+    <!--Section 1-->
+    <section class="department"> 
+        <h1>DEPARTMENT OF WILDLIFE CONSERVATION SRI LANKA</h1><br>
+        <p>Sri Lanka's Department of Wildlife Conservation is in charge of protecting the island's wide variety of plants and animals and making
+           sure that human activity and wildlife coexist together. Conserving biodiversity, overseeing national parks and wildlife reserves, 
+           studying and monitoring wildlife, incorporating local communities in conservation activities, stopping poaching and the illegal wildlife
+           trade, raising public awareness of environmental issues, and carrying out habitat restoration projects are some of the main duties. 
+           The department's goals are to dismantle networks involved in the illicit wildlife trade, preserve and conserve endangered species, 
+           and maintain ecological equilibrium. In order to raise awareness of environmental issues and safeguard endangered species, it also 
+           runs educational initiatives and awareness campaigns. In order to promote the general health of the ecosystem, the department also 
+           works on habitat restoration projects, such as reforestation and habitat enhancement projects. The Wildlife Conservation 
+           Department(Department of wild life LK, 2022)<br><br>
+        </p>
+    </section><br><br>
+
+    <!--Section 2-->
+
+    <section class="dep-container">
+
+        <div class="animal-location">
+            <h1>IMAGES OF PROTECTED AREAS</h1>
+        </div><br><br>
+
+        <div class="dep-gallery">
+            <img src="images/protected area-1.jpg">
+            <img src="images/protected-area-2.jpg">
+            <img src="images/protected-area-3.jpg">
+            <img src="images/dep-gallery-4.jpeg">
+            <img src="images/protected-area-4.jpg">
+            <img src="images/dep-gallery-6.jpeg">
+        </div>
+    </section><br><br><br>
+
+    <section class="department">
+      <p>Sri Lanka is home to a diverse array of ecosystems and wildlife, with several protected areas established to conserve and sustain this 
+        rich biodiversity. Yala National Park, the second-largest national park in the country, is known for its dense jungles, scrublands, and 
+        coastal areas, offering habitat protection for various species. Wilpattu National Park, the largest national park in Sri Lanka, is known 
+        for its natural lakes, dense forests, and open grasslands, providing a sanctuary for numerous species and contributing to the preservation 
+        of Sri Lanka's natural heritage.<br><br></p>
+    </section>
+
+    <!---Map -->
+
+    <section class="map-department">
+      <div id="map-container">
+        <div id="map-dep"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15843.601245954784!2d79.89945428987961!3d6.902523989547
+             23!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae250aa85489b1f%3A0xd8773339b6b43dbb!2sDepartment%20of%20Wildlife%20Conser
+             vation!5e0!3m2!1sen!2slk!4v1705582578838!5m2!1sen!2slk" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" 
+             referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <section class="footer">
+
+          <div class="newsletter">
+            <h8 class="letter">Subscribe to Our Newsletter</h8>
+            <form id="newsletterForm">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+            </form>
+          </div>
+            
+            <ul class="list">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Facebook</a>
+              </li>
+              <li>
+                <a href="">Location</a>
+              </li>
+              <li>
+                <a href="">Email</a>
+              </li>
+            </ul>
+            <p class="copyright">TheWildLife.SriLanka 2023</p>
+
+    </footer>
+
+    <script src="Scripts/Department-of-WL.js"></script>
+    <script src="Scripts/Newsletter.js"></script>
+    <script src="Scripts/Edit.js"></script>
+    
+
+</body>
+
+</html>

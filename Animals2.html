@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<head>
+    <title> ANIMALS </title>
+    <meta name="viewport" content="width=device-width, initial-Scale=1.0">
+    <link rel="normalize" href="normalize.css">
+    <link rel="Stylesheet" href="Styles/stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header >
+
+        <div class="header">
+
+            <img src="images/logo.png" class="logo">
+    
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="nav-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+    
+            <nav class="navbar">
+                <a href="index2.html" style="--i:0;">HOME</a>
+                <a href="Introduction2.html" style="--i:1;">INTRODUCTION</a>
+                <a href="Department-of-WL2.html" style="--i:2;">DEPARTMENT OF WILDLIFE</a>
+                <a href="SL-Leopard2.html" style="--i:3;">SRI LANKAN LEOPARD</a>
+                <a href="Animals2.html" style="--i:4;">ANIMALS</a>
+                <a href="index.html"  style="--i:5;">WILDLIFE WEBSITE</a>
+                <button id="saveButton">SAVE</button>
+            
+            </nav>
+    
+        </div>
+
+    </header>
+
+    <div id="contenteditable" contenteditable="true">
+
+    <!---Baground image -->
+    <section style="height: 450px; overflow: hidden;">
+        <img src="images/bg-animal.jpeg" width="100%" height="auto">
+    </section>
+
+    <!--Section 1-->
+    <section class="animals"> 
+        <h1>ANIMALS IN SRILANKA</h1><br>
+        <p>Sri Lanka is the Best for Big Game Safaris outside Africa. Elephant, Leopard, Sloth Bear, Blue Whale, and Sperm Whale are its Big Five. 
+            Few nations can match its array of Big Game safari animals, species densities, and infrastructure for tourists. No question about 
+            it—it's the Ultimate Island Safari. The largest mammal to have ever lived on Earth, the blue whale, is best found in Sri Lanka. 
+            The world's best places to see blue whales are Trincomalee and Mirissa.The largest toothed whale in the world, the sperm whale,
+            may be found in Kalpitiya, one of the top 10 sites worldwide.The world's greatest opportunity to witness both blue and sperm whales 
+            during whale watching is near Mirissa.Minneriya National Park hosts the largest seasonal recurrent concentration of wild elephants, 
+            with up to 300 congregating annually on the lakebed, making it one of the top wildlife spectacles globally.Yala National Park is the
+            world's top spot for observing and photographing leopards, with an average of one leopard per square kilometer in certain parts of Block 1.
+            The largest, most well researched, and longest-viewing bird wave is the Sinharaja Bird Wave.(wildlifetourssrilanka, 2022)<br><br>
+        </p>
+    </section><br><br>
+
+    <!--Section 2 yala & wilpattu -->
+    <section class="animals-2" class="animals">
+        <div class="animal-location">
+            <h1>Explore Yala & Wilpatu national park</h1>
+        </div>
+        <div class="animal-row">
+            <div class="animal-col">
+                <img src="images/yala.jpeg" alt="" width="500" height="350">
+                <h4>Yala national park</h4>
+                <p>Yala, located in Sri Lanka's southeast, was designated a wildlife sanctuary in 1900 and a national park in 1938.</p><br>
+                <a href="Yala.html" class="animal-link">Explore more</a>
+            </div>
+            <div class="animal-col">
+                <img src="images/wilpatu (1).jpeg" alt="" width="500" height="350">
+                <h4>Wilpatu national park</h4>
+                <p>The largest and oldest protected area in Sri Lanka, covering over 130,000 hectares, is located in the country.</p><br>
+                <a href="Wilpattu.html" class="animal-link">Explore more</a>
+            </div>
+        </div>
+    </section><br><br>
+
+</div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <section class="footer">
+
+            
+        <div class="newsletter">
+            <h8 class="letter">Subscribe to Our Newsletter</h8>
+            <form id="newsletterForm">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+            </form>
+        </div>
+            
+            <ul class="list">
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Facebook</a>
+              </li>
+              <li>
+                <a href="">Location</a>
+              </li>
+              <li>
+                <a href="">Email</a>
+              </li>
+            </ul>
+            <p class="copyright">TheWildLife.SriLanka 2023</p>
+            
+    </footer>
+
+    
+
+    <script src="Scripts/Animals.js"></script>
+    <script src="Scripts/Newsletter.js"></script>
+    <script src="Scripts/Edit.js"></script>
+
+</body>
+
+</html>

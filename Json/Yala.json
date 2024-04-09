@@ -1,0 +1,106 @@
+{
+    "sections": [
+      {
+        "section_type": "section",
+        "class": "bg",
+        "content": [
+          {
+            "tag": "img",
+            "src": "images/WhatsApp Image 2024-01-18 at 11.58.34 PM.jpeg",
+            "width": "100%",
+            "height": "auto"
+          }
+        ]
+      },
+      {
+        "section_type": "section",
+        "class": "yala",
+        "content": [
+          { "tag": "h1", "text": "YALA NATIONAL PARK" },
+          { "tag": "p", "text": "One of Sri Lanka's must-see locations is Yala National Park, sometimes called Ruhuna National Park. This outstanding game reserve, which is the most well-known in Sri Lanka, is situated in the southeast of the country for good reason. Yala is split into five blocks and has an area of 1,260 square kilometers. It is said to have the highest density of leopards per square kilometer in the world. The most popular area of the reserve is Block I, which also offers the best opportunities for a leopard safari. Although leopards are normally difficult to spot, sightings in Yala are very good; you may see them lounging in the sun on rocky outcrops, in trees, across paths, and next to waterholes. In addition to leopards, Asian elephants, sloth bears, and.(ugaescape, 2023)" }
+        ]
+      },
+      {
+        "section_type": "section",
+        "class": "yala-section",
+        "content": [
+          {
+            "tag": "div",
+            "class": "yala-row",
+            "content": [
+              {
+                "tag": "div",
+                "class": "yala-col",
+                "content": [
+                  { "tag": "img", "src": "images/yala-01.jpg", "width": "500", "height": "350" }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "yala-col",
+                "content": [
+                  { "tag": "h1", "style": "color:#435b66;", "text": "RULES OF THE JUNGLE" },
+                  { "tag": "p", "text": "The headline may bring you other ideas, but contrary to popular beliefs, the jungle has rules, as much as cities do! Believe it or not, some of these rules may even be tougher than in your hometown. You must remember that rules pertain not just to animals and your conduct but also extend to the plant life and soil, ancient ruins etc. Violations may be punishable with fine and/or prison term, so take heed, obey the law. Don't do it just out of fear; do it because you care!" }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_type": "section",
+        "class": "yala-section",
+        "content": [
+          {
+            "tag": "div",
+            "class": "yala-row",
+            "content": [
+              {
+                "tag": "div",
+                "class": "yala-col",
+                "content": [
+                  { "tag": "img", "src": "images/yala-2.jpg", "width": "500", "height": "350" }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "yala-col introduction",
+                "content": [
+                  { "tag": "h1", "style": "color:#435b66;", "text": "HOW HOT IS YALA?" },
+                  { "tag": "p", "text": "Yala is in a hot, semi-arid environment despite its lush greenish look, especially during the monsoon season. Temperature ranges from 260C to about 300C. The North-east monsoon season is when Yala gets most of its rainfall from September to December." }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_type": "section",
+        "class": "yala-section",
+        "content": [
+          {
+            "tag": "div",
+            "class": "yala-row",
+            "content": [
+              {
+                "tag": "div",
+                "class": "yala-col",
+                "content": [
+                  { "tag": "img", "src": "images/yala-3.jpg", "width": "500", "height": "350" }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "yala-col introduction",
+                "content": [
+                  { "tag": "h1", "style": "color:#435b66;", "text": "MOST POPULAR SITES IN THE PARK" },
+                  { "tag": "p", "text": "Sithulpauwwa The name Sithulpauwwa is derived from the word 'Chittalapabbata' which means the hill of the quiet mind. The ancient rock temple is a place of worship for devotees. It is believed that in ancient times this rock temple housed a total of 12,000 monks. Magul Maha Viharaya Located to the south of Sithulpauwa, Magul Maha Viharaya is believed to have provided the setting for the marriage of King KavanTissa to Vihara Maha Devi. One could combine a visit to Sithulpauwe and Magul MahaViharaya as they are located closely together." }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

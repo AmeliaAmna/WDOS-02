@@ -1,0 +1,180 @@
+{
+    "sections": [
+      {
+        "section_type": "image",
+        "src": "images/bg-introduction.jpeg",
+        "width": "100%",
+        "height": "auto"
+      },
+      {
+        "section_type": "content",
+        "class": "introduction",
+        "content": [
+          { "tag": "h2", "text": "INTRODUCTION FOR WILDLIFE IN SRILANKA" },
+          {
+            "tag": "p",
+            "text": "Sri Lanka, like many other islands, is home to a largenumber of endemic species, or animals and plants that are unique to our planet. The vast number of species that call the Tear Drop Isle home has led to the nation being recognized as one of the top five biodiversity hotspots in the world. Continue reading to find out what some of Sri Lanka's top national parks have to offer."
+          }
+        ]
+      },
+      {
+        "section_type": "location",
+        "class": "introduction",
+        "content": [
+          {
+            "class": "location-col",
+            "content": [
+              { "tag": "h1", "style": "color:#435b66;", "text": "HORTON PLAINS NATIONAL PARK" },
+              {
+                "tag": "p",
+                "text": "The Horton Plains, which are more than 2,000 meters above sea level, seem to be in a different planet than the rest of Sri Lanka. A vast expanse of the park is enveloped in immaculate cloud forest, with strikingly steep cliffs forming its southern edge. One of the greatest spots for bird viewing, it is home to several unique species."
+              },
+              { "tag": "img", "src": "images/horton.jpg", "alt": "", "width": "500", "height": "350" }
+            ]
+          },
+          {
+            "class": "location-col",
+            "content": [
+              {
+                "id": "map",
+                "iframe": {
+                  "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.674038510928!2d80.8023333!3d6.8094459999999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1705427806568!5m2!1sen!2slk",
+                  "width": "400",
+                  "height": "300",
+                  "style": "border:0;",
+                  "allowfullscreen": "",
+                  "loading": "lazy",
+                  "referrerpolicy": "no-referrer-when-downgrade"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_type": "location",
+        "class": "introduction",
+        "content": [
+          {
+            "class": "location-col",
+            "content": [
+              { "tag": "h1", "style": "color:#435b66;", "text": "GAL OYA VELLY NATIONAL PARK" },
+              {
+                "tag": "p",
+                "text": "Gal Oya, the only national park in Sri Lanka that offers boat safaris, guards the enormous Senanayake Samudra Reservoir. 32 different animal species can be found in the park, and one of the main attractions for tourists is seeing herds of elephants swim across the reservoir to go from island to island."
+              },
+              { "tag": "img", "src": "images/gal oya.jpeg", "alt": "", "width": "500", "height": "350" }
+            ]
+          },
+          {
+            "class": "location-col",
+            "content": [
+              {
+                "id": "map",
+                "iframe": {
+                  "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.108070652243!2d81.46926377448479!3d7.228512914570346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae4e2a00da92731%3A0x2792347a67187b94!2sGal%20Oya%20Valley%20National%20Park!5e0!3m2!1sen!2slk!4v1705431334112!5m2!1sen!2slk",
+                  "width": "400",
+                  "height": "300",
+                  "style": "border:0;",
+                  "allowfullscreen": "",
+                  "loading": "lazy",
+                  "referrerpolicy": "no-referrer-when-downgrade"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_type": "location",
+        "class": "introduction",
+        "content": [
+          {
+            "class": "location-col",
+            "content": [
+              { "tag": "h1", "style": "color:#435b66;", "text": "UDAWALAWE NATIONAL PARK" },
+              {
+                "tag": "p",
+                "text": "One of the greatest spots in the world to watch wild elephants is Udawalawe, which is framed by the towering Central Highlands. Along with other species found in the park including water buffalo, sloth bears, wild boar, spotted deer, and the indigenous toque macaque, herds are sometimes sighted roaming in groups of up to 100."
+              },
+              { "tag": "img", "src": "images/udawalawe.jpg", "alt": "", "width": "500", "height": "350" }
+            ]
+          },
+          {
+            "class": "location-col",
+            "content": [
+              {
+                "id": "map",
+                "iframe": {
+                  "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31716.098610941637!2d80.86193357298787!3d6.456580730018772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae408ff88887e79%3A0xaf12e79ffbd980d7!2sUdawalawe%20National%20Park!5e0!3m2!1sen!2slk!4v1705431117152!5m2!1sen!2slk",
+                  "width": "400",
+                  "height": "300",
+                  "style": "border:0;",
+                  "allowfullscreen": "",
+                  "loading": "lazy",
+                  "referrerpolicy": "no-referrer-when-downgrade"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_type": "content",
+        "content": [
+          { "tag": "h1", "style": "color: #a76f6f; text-align:center", "text": "SOME ANIMALS TO SEE IN SRI LANKA" }
+        ]
+      },
+      {
+        "section_type": "content",
+        "class": "table-spacing",
+        "content": {
+          "tag": "table",
+          "content": [
+            {
+              "tag": "tr",
+              "content": [
+                { "tag": "th", "class": "animal-row1", "text": "NAME OF THE ANIMAL" },
+                { "tag": "th", "class": "animal-row1", "text": "INTERESTING FACTS ABOUT ANIMAL" },
+                { "tag": "th", "class": "animal-row1", "text": "IMAGE OF ANIMAL" }
+              ]
+            },
+            {
+              "tag": "tr",
+              "content": [
+                { "tag": "th", "text": "SAMBAR" },
+                {
+                  "tag": "th",
+                  "text": "Sambar, the largest deer species, plays a crucial role in the island's biodiversity, food chain, and ecosystem. Its robust build and branching antlers influence plant growth and distribution. The sambar is also culturally significant."
+                },
+                { "tag": "th", "content": { "tag": "img", "src": "images/intro-Sambar.jpg", "width": "300px", "height": "250px" } }
+              ]
+            },
+            {
+              "tag": "tr",
+              "content": [
+                { "tag": "th", "text": "TURTLES" },
+                {
+                  "tag": "th",
+                  "text": "Sri Lanka's beaches are crucial nesting sites for endangered sea turtles, such as Green Turtle, Loggerhead Turtle, Hawksbill Turtle, and Olive Ridley Turtle. Conservation efforts focus on protecting these sites and raising awareness about their importance, preserving coastal ecosystems, and sustaining marine life."
+                },
+                { "tag": "th", "content": { "tag": "img", "src": "images/intro-turtle.jpg", "width": "300px", "height": "250px" } }
+              ]
+            },
+            {
+              "tag": "tr",
+              "content": [
+                { "tag": "th", "text": "BLUE WHALE" },
+                {
+                  "tag": "th",
+                  "text": "Sri Lanka is a top location for observing the majestic blue whale, the largest animal on Earth. The region's waters off the southern coast, particularly around Mirissa, serve as a crucial feeding ground for these giants, highlighting the importance of marine conservation."
+                },
+                { "tag": "th", "content": { "tag": "img", "src": "images/intro-whale.jpeg", "width": "300px", "height": "250px" } }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
